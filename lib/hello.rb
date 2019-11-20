@@ -6,9 +6,7 @@ def hello_t(array)
  
     while i < array.length
       yield(array[i])
-      #binding.pry
       i = i + 1
-      #binding.pry
     end
  
     array
